@@ -1,0 +1,20 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+|-----handy-ruler------------------------------------------------------|
+shadowsocks-libev: shadowsocks-libev (lightweight secured SOCKS5 proxy)
+shadowsocks-libev:
+shadowsocks-libev: Shadowsocks-libev is a lightweight secured SOCKS5 proxy for 
+shadowsocks-libev: embedded devices and low-end boxes.
+shadowsocks-libev: It is a port of Shadowsocks created by @clowwindy, which is 
+shadowsocks-libev: maintained by @madeye and @linusyang.
+shadowsocks-libev:
+shadowsocks-libev: Shadowsocks-libev is written in pure C and only depends on 
+shadowsocks-libev: libev and OpenSSL or mbedTLS or PolarSSL.
+shadowsocks-libev: In normal usage, the memory footprint is about 600KB and 
+shadowsocks-libev: the CPU utilization is no more than 5% on a low-end router 
+shadowsocks-libev: (Buffalo WHR-G300N V2 with a 400MHz MIPS CPU, 32MB memory and 4MB flash).
