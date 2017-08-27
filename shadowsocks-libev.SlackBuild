@@ -49,8 +49,8 @@
 # |-----------------------------------------------------------------| #
 
 PRGNAM=shadowsocks-libev			# replace with name of program
-VERSION=${VERSION:-2.5.3}	# replace with version of program
-BUILD=${BUILD:-1}
+VERSION=${VERSION:-3.0.8}	# replace with version of program
+BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}		# the "_SBo" is required
 
 # Automatically determine the architecture we're building on:
@@ -104,6 +104,11 @@ find -L . \
 # these are provided as an example only.
 # Be sure to build only shared libraries unless there's some need for
 # static.
+
+CFLAGS="$SLKCFLAGS" \
+CXXFLAGS="$SLKCFLAGS" \
+./autogen.sh
+
 CFLAGS="$SLKCFLAGS" \
 CXXFLAGS="$SLKCFLAGS" \
 ./configure \
