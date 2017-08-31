@@ -14,19 +14,11 @@ In normal usage, the memory footprint is about 600KB and the CPU utilization is 
 
 ## Build
 
-**NOTE: the source package in upstream's github release page is incomplete. Please `git clone` the repo, and then issue:**
+**NOTE: the source package in upstream's github release page is incomplete. Please issue:**
 
 ```sh
-git submodule update --init --recursive
-
-mv shadowsocks-libev/ shadowsocks-libev-3.0.8/
-
-# Then compress the repo:
-
-tar czvf v3.0.8.tar.gz shadowsocks-libev/
-
-# Then move it to your building directory.
-
+git clone --recursive -j8 https://github.com/shadowsocks/shadowsocks-libev.git shadowsocks-libev-3.0.8
+tar --remove-fils -cvzf v3.0.8.tar.gz shadowsocks-libev-3.0.8
 sudo bash shadowsocks-libev.SlackBuild
 
 # slackware
