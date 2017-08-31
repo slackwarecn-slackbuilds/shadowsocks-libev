@@ -11,6 +11,10 @@ In normal usage, the memory footprint is about 600KB and the CPU utilization is 
 
 * libev (*libevent instead*, it's offical support.)
 * OpenSSL (Offical support)
+* mbedtls
+* libsodium
+* udns
+* c-ares
 
 ## Build
 
