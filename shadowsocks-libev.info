@@ -1,11 +1,5 @@
 PRGNAM="shadowsocks-libev"
 VERSION="3.0.8"
 HOMEPAGE="https://github.com/shadowsocks/shadowsocks-libev"
-DOWNLOAD="https://github.com/shadowsocks/shadowsocks-libev/archive/v3.0.8.tar.gz"
-MD5SUM="798a48457c87cb3167ba82d8a7348adb"
-DOWNLOAD_x86_64=""
-MD5SUM_x86_64=""
 REQUIRES="%README% libev OpenSSL (or mbedTLS, PolarSSL)"
 MAINTAINER="weak_ptr <weak_ptr@163.com>"
-EMAIL=""
-
