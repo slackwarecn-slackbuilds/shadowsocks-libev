@@ -14,6 +14,7 @@ In normal usage, the memory footprint is about 600KB and the CPU utilization is 
 * mbedtls
 * libsodium
 * udns
+* pcre3 (or maybe pcre2)
 * c-ares
 
 ## Build
