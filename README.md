@@ -23,7 +23,7 @@ In normal usage, the memory footprint is about 600KB and the CPU utilization is 
 
 ```sh
 git clone --recursive -j8 https://github.com/shadowsocks/shadowsocks-libev.git shadowsocks-libev-3.0.8
-tar --remove-fils -cvzf v3.0.8.tar.gz shadowsocks-libev-3.0.8
+tar --remove-files -cvzf v3.0.8.tar.gz shadowsocks-libev-3.0.8
 sudo bash shadowsocks-libev.SlackBuild
 
 # slackware
