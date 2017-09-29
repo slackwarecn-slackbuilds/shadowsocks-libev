@@ -49,9 +49,9 @@
 # |-----------------------------------------------------------------| #
 
 PRGNAM=shadowsocks-libev
-VERSION=${VERSION:-3.0.8}
-BUILD=${BUILD:-2}
-TAG=${TAG:-_SBo}		# the "_SBo" is required
+VERSION=${VERSION:-3.1.0}
+BUILD=${BUILD:-1}
+TAG=${TAG:-_MD}		# the "_SBo" is required
 
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
@@ -91,7 +91,7 @@ rm -rf $PKG
 mkdir -p $TMP $PKG $OUTPUT
 cd $TMP
 rm -rf $PRGNAM-$VERSION
-tar xvf $CWD/v$VERSION.tar.gz
+tar xvf $CWD/$PRGNAM-$VERSION.tar.gz
 cd $PRGNAM-$VERSION
 chown -R root:root .
 find -L . \
@@ -105,9 +105,9 @@ find -L . \
 # Be sure to build only shared libraries unless there's some need for
 # static.
 
-CFLAGS="$SLKCFLAGS" \
-      CXXFLAGS="$SLKCFLAGS" \
-      ./autogen.sh
+#CFLAGS="$SLKCFLAGS" \
+#      CXXFLAGS="$SLKCFLAGS" \
+#      ./autogen.sh
 
 CFLAGS="$SLKCFLAGS" \
       CXXFLAGS="$SLKCFLAGS" \
