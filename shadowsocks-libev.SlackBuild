@@ -49,7 +49,7 @@
 # |-----------------------------------------------------------------| #
 
 PRGNAM=shadowsocks-libev
-VERSION=${VERSION:-3.1.0}
+VERSION=${VERSION:-3.1.3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_MD}		# the "_SBo" is required
 

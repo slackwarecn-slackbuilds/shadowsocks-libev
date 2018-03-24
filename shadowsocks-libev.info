@@ -1,5 +1,5 @@
 PRGNAM="shadowsocks-libev"
-VERSION="3.1.0"
+VERSION="3.1.3"
 HOMEPAGE="https://github.com/shadowsocks/shadowsocks-libev"
 DOWNLOAD="https://github.com/shadowsocks/shadowsocks-libev/releases/download/v${VERSION}/shadowsocks-libev-${VERSION}.tar.gz"
 REQUIRES="libmbedtls libsodium libpcre3 libev libc-ares OpenSSL"
